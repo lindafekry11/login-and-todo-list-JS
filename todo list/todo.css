@@ -1,0 +1,62 @@
+#container{
+    background-color: rgb(230, 234, 223);
+    width: 800px;
+    padding: 100px;
+}
+
+#myInput{
+    width: 45%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+#btn{
+    width: 12%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(21, 154, 255);
+    color: white;
+}
+
+ul{
+padding: 0;
+margin: 0;
+}
+
+ul li{
+    list-style-type: none;
+    background: white;
+    font-size: 18px;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    transition: 0.2s;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: yellowgreen;
+    }
+  /* When clicked on, add a background color */
+ul li.checked {
+    background: #888;
+    color: #fff;
+  }
+
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    }
+
+     /* Style the right button */
+    .right {
+        position: absolute;
+        right: 50px;
+        top: 0;
+        padding: 12px 16px 12px 16px;
+        }
+
